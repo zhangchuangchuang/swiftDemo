@@ -32,6 +32,10 @@
 		F4C433332211575E00E10338 /* ZCHistoryRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C433322211575E00E10338 /* ZCHistoryRecordViewController.swift */; };
 		F4C433362211595000E10338 /* ZCPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C433352211595000E10338 /* ZCPageTitleView.swift */; };
 		F4C4333D2211679800E10338 /* ZCPageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4333C2211679800E10338 /* ZCPageOptions.swift */; };
+		F4C4333F2211782A00E10338 /* ZCFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4333E2211782A00E10338 /* ZCFont.swift */; };
+		F4E239942212AA3400EA624D /* ZJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E239932212AA3400EA624D /* ZJPageContentView.swift */; };
+		F4E239962212AA5800EA624D /* ZJBasePageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E239952212AA5800EA624D /* ZJBasePageControlCell.swift */; };
+		F4E239982212B36600EA624D /* ZJNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E239972212B36600EA624D /* ZJNotificationName.swift */; };
 		F4E56F0C21F94ECA005642CE /* ZCHomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E56F0B21F94ECA005642CE /* ZCHomeAPI.swift */; };
 		F4EC6A1221F6F48200594298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EC6A1021F6F48200594298 /* Main.storyboard */; };
 		F4EC6A1421F6F48400594298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EC6A1321F6F48400594298 /* Assets.xcassets */; };
@@ -97,6 +101,10 @@
 		F4C433322211575E00E10338 /* ZCHistoryRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCHistoryRecordViewController.swift; sourceTree = "<group>"; };
 		F4C433352211595000E10338 /* ZCPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCPageTitleView.swift; sourceTree = "<group>"; };
 		F4C4333C2211679800E10338 /* ZCPageOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCPageOptions.swift; sourceTree = "<group>"; };
+		F4C4333E2211782A00E10338 /* ZCFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCFont.swift; sourceTree = "<group>"; };
+		F4E239932212AA3400EA624D /* ZJPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageContentView.swift; sourceTree = "<group>"; };
+		F4E239952212AA5800EA624D /* ZJBasePageControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBasePageControlCell.swift; sourceTree = "<group>"; };
+		F4E239972212B36600EA624D /* ZJNotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJNotificationName.swift; sourceTree = "<group>"; };
 		F4E56F0B21F94ECA005642CE /* ZCHomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCHomeAPI.swift; sourceTree = "<group>"; };
 		F4EC6A0921F6F48200594298 /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EC6A1121F6F48200594298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -170,7 +178,9 @@
 		F4B93DF821F8138C006923F5 /* Marco */ = {
 			isa = PBXGroup;
 			children = (
+				F4E239972212B36600EA624D /* ZJNotificationName.swift */,
 				F4B93DF921F8139F006923F5 /* ZCColor.swift */,
+				F4C4333E2211782A00E10338 /* ZCFont.swift */,
 			);
 			path = Marco;
 			sourceTree = "<group>";
@@ -227,6 +237,8 @@
 			children = (
 				F4C433352211595000E10338 /* ZCPageTitleView.swift */,
 				F4C4333C2211679800E10338 /* ZCPageOptions.swift */,
+				F4E239932212AA3400EA624D /* ZJPageContentView.swift */,
+				F4E239952212AA5800EA624D /* ZJBasePageControlCell.swift */,
 			);
 			path = ZCPageView;
 			sourceTree = "<group>";
@@ -609,9 +621,12 @@
 				F4C43315221144BC00E10338 /* ZCNetworking.swift in Sources */,
 				F4EC6A5A21F7153900594298 /* AppDelegate.swift in Sources */,
 				F4EC6A4421F70E2500594298 /* ZCBaseViewController.swift in Sources */,
+				F4E239962212AA5800EA624D /* ZJBasePageControlCell.swift in Sources */,
+				F4C4333F2211782A00E10338 /* ZCFont.swift in Sources */,
 				F4C4333D2211679800E10338 /* ZCPageOptions.swift in Sources */,
 				F4C4332D2211572900E10338 /* ZCJDQSViewController.swift in Sources */,
 				F4E56F0C21F94ECA005642CE /* ZCHomeAPI.swift in Sources */,
+				F4E239942212AA3400EA624D /* ZJPageContentView.swift in Sources */,
 				F4EC6A5721F7126300594298 /* ZCProfileViewController.swift in Sources */,
 				F4EC6A5521F7123800594298 /* ZCDiscoverViewController.swift in Sources */,
 				F4B93DFA21F8139F006923F5 /* ZCColor.swift in Sources */,
@@ -638,6 +653,7 @@
 				F4C433132211443A00E10338 /* ZCNetworkProvider.swift in Sources */,
 				F4EC6A4F21F7113F00594298 /* ZCRecreationViewController.swift in Sources */,
 				F4C433332211575E00E10338 /* ZCHistoryRecordViewController.swift in Sources */,
+				F4E239982212B36600EA624D /* ZJNotificationName.swift in Sources */,
 				F4C4331E2211506E00E10338 /* ZCNavigationBar.swift in Sources */,
 				F4C433312211574800E10338 /* ZCQQCarViewController.swift in Sources */,
 				F4EC6A4021F6FE1F00594298 /* ZCTabBarViewController.swift in Sources */,
